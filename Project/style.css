@@ -1,0 +1,63 @@
+*{
+  margin:0;
+}
+
+head{
+  display:flex;
+  margin-bottom: 200px;
+}
+
+.listofbuttons{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.another:hover{
+  background-color: #0000ff;
+  color:#fff;
+}
+
+
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-top: 300px;
+}
+
+button{
+  font-size: 100px;
+}
+
+.listofbuttons:hover{
+  color:yellow;
+  background-color: yellow;
+}
+
+.another:visited{
+  color:gray;
+
+}
+
+a:hover:first-child{
+  background-color: blue;
+  font-size:50px;
+}
+
+p::first-letter{
+  font-size:200%;
+  color:#8A2BE2;
+}
+
+p{
+  font-size: 50px;
+}
+
+
+.POEM{
+  display:flex;
+  padding-top: 100px;
+  justify-content: space-around;
+  flex-direction: row;
+}
